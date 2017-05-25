@@ -16,7 +16,6 @@ import api.info.InfoUpdate;
 import api.info.SelfInfo;
 import api.message.GroupMessage;
 import api.message.PersonMessage;
-import com.oracle.deploy.update.UpdateInfo;
 import common.Client;
 import io.netty.util.ReferenceCountUtil;
 import pojo.*;
@@ -25,8 +24,6 @@ import transport.HeartbeatHandler;
 import transport.HeartbeatManager;
 import transport.MessageHolder;
 import transport.ProtocolHeader;
-
-import static java.awt.SystemColor.info;
 
 /**
  * 内容分发.

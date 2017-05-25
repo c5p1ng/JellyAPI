@@ -4,7 +4,6 @@ import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.handler.codec.ByteToMessageDecoder;
 import io.netty.util.ReferenceCountUtil;
-import org.apache.log4j.Logger;
 
 import java.util.List;
 

@@ -17,8 +17,6 @@ import api.info.InfoUpdate;
 import api.info.SelfInfo;
 import api.message.GroupMessage;
 import api.message.PersonMessage;
-import com.sun.deploy.util.StringUtils;
-import pojo.Friend;
 
 import java.util.*;
 
@@ -47,7 +45,7 @@ public class ClientStrap {
         Scanner sc = new Scanner(System.in);
         while (true) {
             if (sc.hasNextLine()) {
-                String line = StringUtils.trimWhitespace(sc.nextLine());
+                String line = sc.nextLine().trim();
                 String[] keywords = line.split(" ");
                 try {
                     commandId = commandLine.getCommands().get(keywords[0]);
